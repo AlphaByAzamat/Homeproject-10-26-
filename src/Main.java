@@ -19,7 +19,7 @@ public class Main {
 
         Employee worker1 = new Employee(employee_name, employee_last_name, id++, rate);
         SalaryCal salaryCal = new SalaryCal(worker1);
-        System.out.println("SALARY FOR "+ employee_name+" is "+salaryCal.salarycal());
+        System.out.println("SALARY FOR "+ employee_name+" is exclusively "+salaryCal.salarycal());
 
 
     }
